@@ -1,0 +1,22 @@
+# CSE-tricks
+useful commands and tricks:
+=================instructions===================================
+http://www.cse.unsw.edu.au/~homecomputing/cdrom/html/guide.html
+==============handy commands===================================
+ftp ftp.cse.unsw.edu.au
+  ftp> put <filename>
+  This will put the file you specified in the current directory into your CSE account.
+
+  To "get" files from your CSE account, use the command get:key => "value", 
+
+  ftp> get <filename>
+  This will retrieve the file from the server and put it on your home computer.
+
+  To change the directory on your computer ("local change directory"), type:
+
+  ftp> lcd <directory>
+  To change the directory on your CSE account, type:
+
+  ftp> cd <directory>
+  
+ssh -Y CSEUSERNAME@login.cse.unsw.edu.au
